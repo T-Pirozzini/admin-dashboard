@@ -2,7 +2,61 @@
   margin: 0px;
   padding: 0px;
 }
-
 body {
   background-color: antiquewhite;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1fr 6fr;
+  height: 100vh;
+  grid-template-areas:
+  "nav header"
+  "nav content"
+}
+header {
+  grid-area: header;
+  background-color: white;
+}
+nav {
+  grid-area: nav; 
+  background-color: aqua;
+}
+
+.content-container {
+  grid-area: content;
+  display: grid;  
+  grid-template-columns: 3fr 1fr;
+  background-color: lightgreen;
+}
+.card-container {
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;  
+  gap: 20px;  
+}
+.card > div {  
+  border-left: 10px solid #ef4444;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 158px;
+  padding: 20px;    
+  background-color: blue;
+}
+
+.social-container {
+  margin: 20px;
+}
+.social-container > div {
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.announcements { 
+  height: 150px;   
+  background-color: blueviolet;
+}
+.trending {
+  height: 150px;
+  background-color:brown;
 }
