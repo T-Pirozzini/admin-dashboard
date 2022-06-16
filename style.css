@@ -24,7 +24,8 @@ header {
   background-color: white;
   padding-left: 40px; 
   display: flex;
-  align-items: center;  
+  align-items: center;
+      
 }
 #search {
   width: 60%;
@@ -35,9 +36,11 @@ header {
   margin: 10px 200px 20px 5px;
 }
 .icon {  
-  max-width: 50px;
+  width: 50px;
+  height: 50px;
   background-color: rgb(255, 196, 0);
   border-radius: 50%;
+  padding: 5px;
   margin: 15px 20px 15px 20px;  
 }
 .name {
@@ -92,7 +95,8 @@ nav {
   margin-top: 10px;    
   background-color: white;  
   min-width: 250px;
-  max-height: 250px;  
+  max-height: 250px; 
+  box-shadow: 0px 4px 10px 1px rgba(128, 128, 128, 0.527);  
 }
 .icons-container {
   display: flex;
@@ -104,15 +108,17 @@ nav {
 
 .announcement, .trending {
   min-width: 200px;
-  max-width: 400px; 
+  max-width: 400px;   
 }
 .announcement-container, .trending-container, .announcement-title, .trending-title {
   margin-left: 20px;
   margin-top: 10px;
+  
 }
 .announcement-container > div, .trending-container > div {
   margin-bottom: 20px;
   border-radius: 6px;
+  box-shadow: 0px 4px 10px 1px rgba(128, 128, 128, 0.527); 
 }
 .announcements, .trendings {
   padding: 20px; 
@@ -133,7 +139,7 @@ nav {
   background-color:white;
 }
 .trendings > div > div {
-  padding: 10px;
+  padding: 20px;
 }
 .trendings > div {
   display: flex; 
@@ -146,7 +152,7 @@ nav {
   background-color: rgb(236, 55, 76);
 }
 .monkey {
-  background-color: rgb(236, 203, 55);
+  background-color: rgb(76, 236, 55);
 }
 .fox {
   background-color: rgb(55, 179, 236);
