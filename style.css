@@ -34,11 +34,11 @@ header {
   font-size: 1.5rem;
   margin: 10px 200px 20px 5px;
 }
-.ninja-icon {  
+.icon {  
   max-width: 50px;
   background-color: rgb(255, 196, 0);
   border-radius: 50%;
-  margin: 15px 20px 15px 20px;
+  margin: 15px 20px 15px 20px;  
 }
 .name {
   font-weight: 700;
@@ -88,7 +88,8 @@ nav {
 .project-container > div {  
   border-left: 8px solid rgb(255, 166, 0);
   border-radius: 10px;  
-  padding: 20px;    
+  padding: 20px;
+  margin-top: 10px;    
   background-color: white;  
   min-width: 250px;
   max-height: 250px;  
@@ -101,17 +102,19 @@ nav {
   padding: 1rem;  
 }
 
-.announcement {
-  min-width: 300px; 
+.announcement, .trending {
+  min-width: 200px;
+  max-width: 400px; 
 }
 .announcement-container, .trending-container, .announcement-title, .trending-title {
   margin-left: 20px;
+  margin-top: 10px;
 }
 .announcement-container > div, .trending-container > div {
   margin-bottom: 20px;
   border-radius: 6px;
 }
-.announcements {
+.announcements, .trendings {
   padding: 20px; 
   background-color: white;
 }
@@ -122,11 +125,33 @@ nav {
 .announcements :nth-child(3) {
   border-bottom: 0px;
 }
-
-.trending {
-  min-width: 300px;
+.announcements > div > h4, .announcements > div > p {
+  font-size: .8rem;
 }
+
 .trendings {
-  
   background-color:white;
 }
+.trendings > div > div {
+  padding: 10px;
+}
+.trendings > div {
+  display: flex; 
+  align-items: center;
+}
+.trendings > div > img {  
+  margin: 0px;
+}
+.dog {
+  background-color: rgb(236, 55, 76);
+}
+.monkey {
+  background-color: rgb(236, 203, 55);
+}
+.fox {
+  background-color: rgb(55, 179, 236);
+}
+.tiger {
+  background-color: rgb(212, 55, 236);
+}
+
