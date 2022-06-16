@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -21,7 +23,27 @@ header {
 }
 nav {
   grid-area: nav; 
-  background-color: aqua;
+  background-color: rgb(4, 135, 241);  
+}
+.nav-items, .dashboard {
+  color: White;
+  font-weight:700;  
+  font-size: 1.5rem;  
+  font-family: 'Rajdhani', sans-serif;
+  margin: 40px 15px;
+  list-style: none;  
+}
+.dashboard {
+  font-size: 2rem;
+  margin: 15px;
+}
+.dashboard-icon {  
+  font-size: 2rem;
+  padding: 10px;
+  padding-bottom: 10px;  
+}
+.nav-items > li span {
+  padding: 10px;   
 }
 
 .content-container {
