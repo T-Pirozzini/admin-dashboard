@@ -6,7 +6,7 @@ The task was to create a similar layout to the The Odin Project example (shown b
 
 ## :camera: Screenshots
 My Admin Dashboard
-![signup-page](https://github.com/T-Pirozzini/admin-dashboard/blob/main/assets/main-page.png?raw=true)
+![admin-dashboard](https://github.com/T-Pirozzini/admin-dashboard/blob/main/assets/main-page.png?raw=true)
 TOP Example
 ![TOP-example](https://github.com/T-Pirozzini/admin-dashboard/blob/main/assets/top-page.png?raw=true)
 
