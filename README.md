@@ -1,5 +1,6 @@
 ## :office: Admin Dashboard
-Admin Dashboard main page - responsive web design.
+Admin Dashboard Layout - responsive web design.
+<br>
 The task was to create a similar layout to the The Odin Project example (shown below) with an emphasis on Flexbox & Grid.
 #### HTML/CSS
 
