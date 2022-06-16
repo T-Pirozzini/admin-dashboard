@@ -80,12 +80,14 @@ nav {
   gap: 20px;  
 }
 .card > div {  
-  border-left: 10px solid #ef4444;
+  border-left: 10px solid rgb(255, 196, 0);
   border-radius: 10px;
   background-color: #fff;
   height: 158px;
   padding: 20px;    
-  background-color: blue;
+  background-color: white;
+  margin: 20px 0px 0px 20px;
+  min-width: 250px;
 }
 
 .social-container {
